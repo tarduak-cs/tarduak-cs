@@ -1,0 +1,5 @@
+- 👋 Hi, I'm @tarduak-cs! 
+- 👀 I'm interested in applied data science, ML & AI
+- 📚 I'm a recent graduate from the University of Toronto, where I studied Physics, Math & Stats 
+- 📫 You can reach me at akincitardu1@icloud.com 
+- 🐈 I have two cats named Rengar & Pookie, and one lizard named Heisenberg!
