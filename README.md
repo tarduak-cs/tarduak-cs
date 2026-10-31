@@ -1,19 +1,35 @@
 # Hi, I'm Tardu
 
-Math & Physics graduate from the University of Toronto, incoming MSc Data Science & Analytics student at Toronto Metropolitan University.
+I build LLM-agent systems and production data apps with Claude API, MCP, FastAPI and React.
 
-I'm building applied ML systems for health, wearables, time-series data, and intelligent products.
+Math & Physics BSc from the University of Toronto, now doing an MSc in Data Science & Analytics at Toronto Metropolitan University. Long term I'm most interested in health, wearables and physiological data.
 
-## Featured Projects
+Open to AI engineering roles: part-time now, internship or co-op from May 2027.
 
-- LifeOS — personal health intelligence dashboard using React, TypeScript, Supabase, and wearable CSV imports.
-- Bank Churn Prediction — end-to-end churn model with SQL feature engineering, XGBoost, SHAP, FastAPI, and Streamlit.
-- GameSense / Esports ML — match outcome and player behaviour modeling project in progress.
+## Projects
 
-## Focus Areas
+**[Jarvis](https://tarduak-cs.github.io/jarvis-showcase/): multi-agent personal assistant**\
+School, career, email and YouTube agents write to a shared database behind a FastAPI dashboard, with a read-only MCP server so Claude Desktop can query it. A model router sends each task to a fast, mid or large Claude model, retries invalid output on the next tier, and logs the cost of every call. Extracted data is only accepted if the quoted text appears verbatim in the source PDF. 560+ automated tests.\
+`Python` `FastAPI` `SQLAlchemy` `React/TypeScript` `Claude API` `MCP`
 
-Applied ML • Time-Series Modeling • Health AI • Wearables • Product Analytics • Scientific Computing
+**[RM İstanbul Field Operations Platform](https://rm-istanbul-montaj.netlify.app)**\
+Gives managers a live view of 5 field installation teams. Workers log job status, photos and GPS location from their phones, and an AI assistant emails managers a daily summary in Turkish. Built and launched solo.\
+`Supabase` `PostgreSQL` `Netlify` `Claude API`
+
+**[Credit Card Churn Prediction](https://tarduak-bank-churn.streamlit.app)**\
+Set the flagging cutoff from the cost of a retention offer vs. the value of a saved customer, catching 98% of leavers and raising expected profit by ~$3K on held-out data. SHAP shows churn is driven by falling card activity, not demographics.\
+`PostgreSQL` `XGBoost` `SHAP` `FastAPI` `Streamlit`
+
+**[LifeOS](https://lifeos-tardu.vercel.app): personal health & biometrics platform**\
+Combines sleep, HRV, resting heart rate, mood and workout data (including WHOOP and Oura imports) and finds links between daily habits and health trends.\
+`React` `TypeScript` `Supabase` `Recharts`
 
 ## Stack
 
-Python • SQL • PyTorch • scikit-learn • XGBoost • FastAPI • Streamlit • React • TypeScript • Supabase
+**AI & LLM:** Claude API / Anthropic SDK, LLM agents & tool use, MCP, output validation, model routing\
+**Engineering:** FastAPI, SQLAlchemy, PostgreSQL, Supabase, React/TypeScript, pytest, Playwright\
+**Data & ML:** Python, SQL, R, pandas, scikit-learn, XGBoost, SHAP
+
+## Contact
+
+[LinkedIn](https://linkedin.com/in/remzitarduakinci) · akincitardu1@icloud.com
